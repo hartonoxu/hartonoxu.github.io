@@ -1,0 +1,89 @@
+.cv-button{
+  background-color: white;
+  border: inset;
+  border-width: 1px;
+  border-color:#666;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  position: absolute;
+  top:40px;
+  right:20px;
+  -webkit-transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out;
+  -moz-transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out;
+  transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out
+}
+
+.site-content {
+  color: #666;
+}
+
+.name {
+  font-size: 28px;
+}
+
+.cv-button:hover {
+  background-color: orange;
+  color:white;
+}
+
+.container {
+  border-radius: 5px;
+  border-color:orange;
+  padding: 20px;
+}
+
+.container.cntr {
+  text-align: center;
+}
+
+legend {
+  text-align:left;
+  color:#666;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.columns {
+  /* Old Chrome, Safari, Opera */
+  -webkit-column-count: 4; 
+  -webkit-column-width: 100px;
+    
+  /* Old Firefox */
+  -moz-column-count: 4;
+  -moz-column-width: 100px;
+
+  /* Statndard syntax */
+  column-count: 4;
+  column-width: 100px;
+}
+
+.col-25 {
+  float: left;
+  color:orange;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+}

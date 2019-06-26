@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hartono Xu</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2019-06-26T16:17:02.492Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>Hartono Xu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cara Embed video bilibili ke blog Hexo</title>
+    <link href="/2019/06/26/Hexo-Theme-Sakura/"/>
+    <id>/2019/06/26/Hexo-Theme-Sakura/</id>
+    <published>2019-06-26T14:16:01.000Z</published>
+    <updated>2019-06-26T16:17:02.492Z</updated>
+    
+    <summary type="html">
+    
+      Cara Embed video dari Bilibili ke blog yang menggunakan Hexo
+    
+    </summary>
+    
+      <category term="Programming" scheme="/categories/Programming/"/>
+    
+    
+      <category term="web" scheme="/tags/web/"/>
+    
+      <category term="reading" scheme="/tags/reading/"/>
+    
+  </entry>
+  
+</feed>
